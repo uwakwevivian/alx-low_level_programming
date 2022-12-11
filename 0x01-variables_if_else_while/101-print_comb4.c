@@ -23,7 +23,6 @@ int main(void)
 				if (x == '7' && y == '8' && z == '9')
 				break;
 				putchar(',');
-				putchar(',');
 				putchar(' ');
 				}
 			}
