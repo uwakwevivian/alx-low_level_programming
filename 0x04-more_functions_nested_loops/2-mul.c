@@ -1,15 +1,11 @@
 #include "main.h"
-
 /**
- * _isdigit -checks if numbers are 0 through 9
- * @c: char to check
- * Return: 0 or 1
+ * _mul - function that multiplies two int values
+ * @a: first input
+ * @b: second input
+ * Return: returns the multi value
  */
-int _isdigit(int c)
-
+int mul(int a, int b)
 {
-	int multi = a * b;
-
-	return multi = a * b;
-			return (multi);
+	return (a * b);
 }
