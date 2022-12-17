@@ -2,32 +2,34 @@
 
 /**
  * print_diagonal - function to print a line
- * @n: line length control value
+ * @row: line length control value
+ * @col - column
+ * @val - counter
  * Return: returns a diagonal line based on value of n
  */
-void print_diagonal(int n)
+void print_diagonal(int size)
 {
-	int a = 1;
+	int row, col;
+	
+	row = 1;
 
-	if (n > 0)
+	if (size > row)
 	{
-		_putchar('\\');
-
-		while (i < n)
+		for (row = 1; row <= size;  row++)
 		{
-			int val = 0;
+			col = 1;
 
-			_putchar('\n');
-			while (val < a)
+			while(col <= row -1)
 			{
-				_putchar(' ');
-				val++;
+
+				putchar(' ');
+				col++;
+
 			}
 			putchar('\\');
-			a++;
+			putchar('\n');
 		}
-		_putchar('\n');
 	}
 	else
-		_putchar('\n');
+		putchar('\n');
 }
