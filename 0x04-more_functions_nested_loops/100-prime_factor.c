@@ -8,23 +8,19 @@
  */
 int main(void)
 {
-	long int Num = 612852475143;
-	int count, largest_p_f;
+	long prime = 61285475143, div;
 
-	for (count = 2; count <= Num; count++)
+	while (div < (prime / 2))
 	{
-		if (Num > 1)
+		if ((prime % 2) == 0)
 		{
-			while (Num % count == 0)
-			{
-				Num = Num / count;
-
-				largest_p_f = count;
-
-			}
+			prime /= 2;
+			continue;
 		}
-	}
-	largest_p_f = count;
-	printf("\n");
-	return (0);
-}
+		for (div = 3; div < (prime / 2); div += 2)
+		{
+			if ((prime /= div;
+						}
+						}
+						printf("%1d\n", prime);
+						return (0);
