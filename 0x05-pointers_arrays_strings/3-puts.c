@@ -7,11 +7,13 @@
  * Return: Nothing
  */
 void _puts(char *str)
+
 {
-	int index;
-	for  (index = 0; str[index] != '\0'; index++)
+	int len = 0;
+	
+	while (*(str + len) != '\0')
 	{
-		_putchar(str[index]);
+		_putchar(*(str + len));
 	}
 	_putchar('\n');
 }
