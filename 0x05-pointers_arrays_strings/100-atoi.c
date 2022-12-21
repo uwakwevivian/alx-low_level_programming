@@ -10,7 +10,6 @@
 int _atoi(char *s)
 {
 	int index, index2;
-
 	unsigned int res;
 	char now;
 	int sign = 1;
@@ -26,7 +25,7 @@ int _atoi(char *s)
 		}
 		if (now >= '0' && now <= '9')
 		{
-			index2 = index
+			index2 = index;
 				while (*(s + index2) > 47 && *(s + index2) < 58)
 				{
 					res = (res * 10) + *(s + index2) - '0';
