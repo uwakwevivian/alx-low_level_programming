@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - function that compares two strings
+ * _strcmp - The function that compares two strings
  * @s1: String to be compared
  * @s2: String to be compared
  *
@@ -9,9 +9,8 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i; /* for loop count */
-	int diff; /* for differnce(in ascii value) */
-	/* when characters compared are not equal */
+	int i; /* loop counter */
+	int diff; /* differnce(in ascii value) */
 
 	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
 	{
