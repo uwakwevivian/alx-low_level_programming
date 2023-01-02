@@ -8,6 +8,7 @@
  *
  * Return: pointer to the first matching byte occurence
  */
+
 char *_strpbrk(char *s, char *accept)
 {
 	int i = 0, j;
@@ -15,6 +16,7 @@ char *_strpbrk(char *s, char *accept)
 	while (s[i])
 	{
 		j = 0;
+
 		while (acepted[j] != '\0')
 		{
 			if (s[i] == accept[j])
