@@ -10,8 +10,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0,
-	int j;
+	int i = 0, j;
 	int m = 0;
 
 	while (accept[i])
@@ -22,7 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (accept[i] == s[j])
 			{
-				m++
+				m++;
 			}
 			j++;
 		}
