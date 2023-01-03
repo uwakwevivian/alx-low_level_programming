@@ -2,7 +2,7 @@
 #define NULL 0
 
 /**
- * _strpbrk - function that searches a string for any of a set of bytes.
+ * _strpbrk - `function that searches a string for any of a set of bytes.
  * @s: main string
  * @accept: string to be searched for.
  *
