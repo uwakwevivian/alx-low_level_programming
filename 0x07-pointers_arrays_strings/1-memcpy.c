@@ -6,7 +6,7 @@
  * @src: is source memory
  * @n: number of byte to be copied
  *
- * Return: String copied from source
+ * Return: string copied from source
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -15,4 +15,4 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	for (a = 0; a < n; a++)
 	dest[a] = src[a];
 	return (dest);
-
+}
