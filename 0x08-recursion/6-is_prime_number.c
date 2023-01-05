@@ -3,10 +3,10 @@
 int check_prime(int, int);
 
 /**
- * is_prime_number - Function to identify prime numbeers
- * @n: Number to check
- *
+ * is_prime_number - prime identifier function
+ * @n: number to check
  * Return: 1 or 0.
+ *
  */
 int is_prime_number(int n)
 {
@@ -14,12 +14,11 @@ int is_prime_number(int n)
 }
 
 /**
- * check_prime -> Checks if n is a prime number
- * @n: Number
- * @i: For iteration
+ * check_prime -> checks if n is prime numbers
+ * @n: number
+ * @i: for iteration
  *
  * Return: 1 or 0.
- *
  */
 int check_prime(int n, int i)
 {
