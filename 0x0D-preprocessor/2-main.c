@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - prints the name where the file program 
+ * main - prints the name where the file program
  * Return: Always 0
  */
 
